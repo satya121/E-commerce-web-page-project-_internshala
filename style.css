@@ -1,0 +1,155 @@
+#banner_image{
+      padding-top: 75px;
+      padding-bottom: 50px;
+      text-align: center;
+      color: #f8f8f8;
+      background: url("img/imgintro.jpg") no-repeat center center;
+      max-width: 100%;
+      background-size: cover;
+}
+#banner-content{
+     position: relative;
+     padding-top: 6%;
+     padding-bottom: 6%;
+     margin-top: 5%; 
+     margin-bottom: 5%;
+     background-color: rgba(0, 0, 0, 0.7); 
+     max-width: 660px;
+}
+footer{
+     padding: 10px 0; 
+     background-color: #101010; 
+     color:#9d9d9d; 
+     bottom: 0; 
+     width: 100%; 
+}
+.ct{
+    margin-top:100px;
+}
+.ss{
+    background-color: #000;
+    color:#fff;
+    font-size: 14px;
+    
+}
+.items{
+    width:23%;
+    display: block;
+    padding: 2px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float:left;
+    margin-left:1%;
+}
+
+.thumbnail{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#bannerimage{
+    padding-top: 75px;
+      padding-bottom: 50px;
+      text-align: center;
+      color: #f8f8f8;
+      background-size: cover;
+}
+.loginpage{
+    height: 168;
+    width: 480;
+}
+#content{
+    min-height: 800px;
+}
+            .col-sty{
+                height:50%;
+                width:50%;
+                padding-top:125px;
+            }
+            .left{
+                float:left;
+            }
+            .right{
+                float:right;
+            }
+
+            
+            *{margin:0px; padding:0px; font-family:Helvetica, Arial, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:16px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+}
+.avatar {
+    width: 200px;
+	height:200px;
+    border-radius: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+	display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%; 
+	padding-bottom: 30px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
